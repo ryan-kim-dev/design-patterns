@@ -1,7 +1,7 @@
 .split_screen_container {
-  display: flex;
+	display: flex;
 }
 
 .split_screen_pane {
-  flex: 1;
+	flex: var(--pane-weight, 1);
 }
